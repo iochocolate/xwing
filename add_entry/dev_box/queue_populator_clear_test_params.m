@@ -1,12 +1,9 @@
 %=========================================================================%
-% CREATE ANNOTATOR BLOCK
+% CLEAR TEST PARAMETERS FOR QUEUE POPULATOR 
 %=========================================================================%
 
-annotator_object = Simulink.Annotation(gcs,'This is an annotation.');
-annotator_object.Interpreter = 'tex';
-annotator_object.FontSize = 6;
-annotator_object.BackgroundColor = 'yellow';
-annotator_object.FontName = 'Apple Braille';
+clear container_length first_index ...
+    last_queue_index container_values;
 
 %=========================================================================%
 % END

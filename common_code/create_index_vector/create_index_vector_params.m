@@ -1,12 +1,8 @@
 %=========================================================================%
-% CREATE ANNOTATOR BLOCK
+% CREATE INDEX VECTOR PARAMS
 %=========================================================================%
 
-annotator_object = Simulink.Annotation(gcs,'This is an annotation.');
-annotator_object.Interpreter = 'tex';
-annotator_object.FontSize = 6;
-annotator_object.BackgroundColor = 'yellow';
-annotator_object.FontName = 'Apple Braille';
+kContainerIndexVector = uint8([0:kContainerLength]);
 
 %=========================================================================%
 % END

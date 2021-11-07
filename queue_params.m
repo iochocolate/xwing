@@ -1,12 +1,13 @@
 %=========================================================================%
-% CREATE ANNOTATOR BLOCK
+% QUEUE PARAMS
 %=========================================================================%
 
-annotator_object = Simulink.Annotation(gcs,'This is an annotation.');
-annotator_object.Interpreter = 'tex';
-annotator_object.FontSize = 6;
-annotator_object.BackgroundColor = 'yellow';
-annotator_object.FontName = 'Apple Braille';
+kContainerLength = uint8(6);
+kFirstContainerIndex = uint8(0);
+kLastContainerIndex = kContainerLength - 1;
+kConsecutiveIndexDelta = uint8(1); % this constant is used to add or 
+% subtract from a current index to get the next index. I want to prevent 
+% numbers in the model
 
 %=========================================================================%
 % END
