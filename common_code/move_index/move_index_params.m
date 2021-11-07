@@ -1,9 +1,8 @@
 %=========================================================================%
-% CLEAR TEST PARAMETERS FOR QUEUE POPULATOR 
+% MOVER INDEX PARAMETERS
 %=========================================================================%
 
-clear container_length first_index ...
-    last_queue_index container_values;
+kRollOverAdjustment = int16(-1);
 
 %=========================================================================%
 % END

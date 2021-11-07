@@ -3,6 +3,7 @@
 %=========================================================================%
 
 kContainerLength = uint8(6);
+kContainerIndexVector = uint8([0:kContainerLength]);
 kFirstContainerIndex = uint8(0);
 kLastContainerIndex = kContainerLength - 1;
 kConsecutiveIndexDelta = uint8(1); % this constant is used to add or 
