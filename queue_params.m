@@ -2,8 +2,8 @@
 % QUEUE PARAMS
 %=========================================================================%
 
-kContainerLength = uint8(6);
-kContainerIndexVector = uint8([0:kContainerLength]);
+kContainerLength = test_input.container_length;
+kContainerIndexVector = uint8([0:(kContainerLength-1)]);
 kFirstContainerIndex = uint8(0);
 kLastContainerIndex = kContainerLength - 1;
 kConsecutiveIndexDelta = uint8(1); % this constant is used to add or 

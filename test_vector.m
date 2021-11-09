@@ -2,6 +2,7 @@
 % TEST DATA
 %=========================================================================%
 
+test_input.container_length = uint8(6);
 test_input.test_container = 0*uint8([0:5]);
 test_input.front_index = uint8(0);
 test_input.back_index_start = uint8(0);
